@@ -1,0 +1,15 @@
+#Raymundo Valentino Solorzano Larios
+#Condicionales en python
+
+# Solicitamos la posicion obtenida
+posicion = int(input("Que posicion obtuviste en la competencia? "))
+
+if posicion == 1:
+    print("!Felicidades, ganaste la medalla de oro!")
+elif posicion == 2:
+    print("!Bien hecho! Medalla de plata.")
+elif posicion == 3:
+    print("!Buen esfuerzo! Medalla de bronce.")
+else:
+    print("Gracias por participar")
+    
